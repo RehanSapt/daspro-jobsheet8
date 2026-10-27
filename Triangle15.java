@@ -17,6 +17,18 @@ public class Triangle15 {
             System.out.println();
             i++;
         } 
+        System.out.println();
+
+        i = n * 2 - 1;
+        while (i >= n) {
+            int j = n;
+            while (j <= i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
+        } 
         sc.close();
     }
 }
