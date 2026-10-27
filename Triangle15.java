@@ -19,9 +19,9 @@ public class Triangle15 {
         } 
         System.out.println();
 
-        i = n * 2 - 1;
-        while (i >= n) {
-            int j = n;
+        i = n;
+        while (i >= 1) {
+            int j = 1;
             while (j <= i) {
                 System.out.print("*");
                 j++;
